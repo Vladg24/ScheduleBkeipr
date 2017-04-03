@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/ivImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_time"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_toLeftOf="@+id/textView8"
+        android:layout_toStartOf="@+id/textView8"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/ivImg2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/location"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignRight="@+id/ivImg"
+        android:layout_alignEnd="@+id/ivImg">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/ivImg1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/person"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/ivImg2"
+        android:layout_alignStart="@+id/ivImg2">
+    </ImageView>
+
+    <TextView
+        android:text="Розташування"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/textView5"
+        android:textSize="10pt"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textTeacher"
+        android:layout_alignLeft="@+id/textTeacher"
+        android:layout_alignStart="@+id/textTeacher" />
+
+    <TextView
+        android:text="Час"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/textView8"
+        android:textSize="10pt"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textLocation"
+        android:layout_alignLeft="@+id/textLocation"
+        android:layout_alignStart="@+id/textLocation" />
+
+    <TextView
+        android:text=""
+        android:layout_width="200dp"
+        android:textSize="10pt"
+        android:id="@+id/textTeacher"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:text=""
+        android:layout_width="200dp"
+        android:id="@+id/textTime"
+        android:textSize="10pt"
+        android:layout_height="25dp"
+        android:layout_below="@+id/ivImg"
+        android:layout_toRightOf="@+id/ivImg"
+        android:layout_toEndOf="@+id/ivImg" />
+
+    <TextView
+        android:text=""
+        android:id="@+id/textLocation"
+        android:textSize="10pt"
+        android:layout_height="30dp"
+        android:layout_width="250dp"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="39dp" />
+
+    <TextView
+        android:text=""
+        android:id="@+id/headText"
+        android:layout_weight="0.09"
+        android:textSize="15pt"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:text="Викладач"
+        android:id="@+id/textView2"
+        android:textSize="10pt"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/headText"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

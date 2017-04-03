@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Розклад"
+        android:id="@+id/shehdule"
+        android:icon="@drawable/book"
+       />
+
+    <item android:title="Викладачі"
+        android:id="@+id/teachers"
+        android:icon="@drawable/accountmultiple"
+        />
+
+    <item android:title="Розклад дзвінків"
+        android:id="@+id/shedule_ring"
+        android:icon="@drawable/bell"
+        />
+
+
+    <item android:title="Інформація">
+        <menu>
+            <item
+                android:title="Про додаток"
+                android:id="@+id/aboutAdd"
+                android:icon="@drawable/informationvariant"/>
+        </menu>
+    </item>
+
+</menu>

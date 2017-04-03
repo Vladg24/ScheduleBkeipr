@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="25dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Багатофункціональний мобільний додаток для покращення життя студента"
+        android:layout_width="350dp"
+        android:textSize="8pt"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="  Над додатком працював:"
+        android:layout_width="300dp"
+        android:id="@+id/textView6"
+        android:textSize="10pt"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Гермаш Владислав"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:text="Ідея, код, дизайн, данні"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_width="250dp"
+        android:textSize="7pt"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:text="Розклад БКЕіПР"
+        android:layout_height="30dp"
+        android:layout_marginTop="22dp"
+        android:textSize="12pt"
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+</RelativeLayout>
